@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-Page{
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-sign{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 35vw;
+ height: 65vh;
+ margin: auto;
+ gap: 1.5rem;
+ border-radius: 10px;
+ box-shadow: 2px 2px gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading{
+  font-size: 40px;
+  font-weight: 500;
+  margin: 2rem;
+}
+
+input{
+  padding: 1rem;
+  width: 30vw;;
+}
+
+.signup{
+  padding: 1.2rem;
+  background-color: aquamarine;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+}
+
+
+.data-table{
+  margin-top: 20px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,th,td{
+  border: 1px solid black;
+}
+
+th,td{
+  padding: 8px;
+  text-align: left;
+}
+th{
+  background-color: #f2f2f2;
 }
